@@ -6965,7 +6965,7 @@ $(document).ready(function() {
         parseInt($("#bloc").val()) ? $("#bloc")[0].value-- : $("#bloc").val("")
     });
     $("#bloc").val(bloc).prop("max", linkBlocs.length - 1);
-
+$("title").text(location.hash);
 });
 
 
