@@ -31693,6 +31693,7 @@ li a {
 <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript">
 </script>
 <script type="text/javascript">
+$("body").keydown(e=>e.key == " " && $(location.hash.replace(/\d+/,a=>++a)).click())
 function splitLinks(s, i) {
     if (i.match(/\[.*\]/)) {
         console.log(i)
