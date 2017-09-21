@@ -31810,7 +31810,7 @@ $("body").attr("month",month+1).css("background",[
         return;
     });
     $("#prevClick").click(function() {
-        $("#num").text(window.localStorage.getItem('num'));
+        location=`?bloc=${localStorage.num/100|0}#${localStorage.num}`
     });
     $("#split").click(function() {
         temp2 = splitLinks($("#text")[0].value, $("#pieces")[0].value);
