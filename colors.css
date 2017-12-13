@@ -501,7 +501,10 @@ body[month='12'] input:not([type=number]):not([type=text])  {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dcba8b', endColorstr='#ffb655',GradientType=0);
 	background-color:#dcba8b;
 }
-
+[month='12']{
+	background:url("Christmas%20Trees.png");
+	background-size: contain;
+}
 #first input {
 	padding: 1 6;
 	width: initial;
