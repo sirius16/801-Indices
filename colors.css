@@ -1,4 +1,4 @@
-﻿body[month='1'] input:not([type=number])  {
+﻿body[month='1'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #7de4ca;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #7de4ca;
 	box-shadow:inset 0px 1px 0px 0px #7de4ca;
@@ -29,7 +29,7 @@
 	text-align: center;
 }
 
-[month='1'] input:not([type=number]):hover {
+[month='1'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ACCAEE), color-stop(1, #ACEEDD));
 	background:-moz-linear-gradient(top, #ACCAEE 5%, #ACEEDD 100%);
 	background:-webkit-linear-gradient(top, #ACCAEE 5%, #ACEEDD 100%);
@@ -40,7 +40,7 @@
 	background-color:#ACCAEE;
 }
 
-body[month='2'] input:not([type=number])  {
+body[month='2'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #a60000;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #a60000;
 	box-shadow:inset 0px 1px 0px 0px #a60000;
@@ -71,7 +71,7 @@ body[month='2'] input:not([type=number])  {
     text-align: center;
 }
 
-[month='2'] input:not([type=number]):hover {
+[month='2'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e40a0a), color-stop(1, #9f0202));
 	background:-moz-linear-gradient(top, #e40a0a 5%, #9f0202 100%);
 	background:-webkit-linear-gradient(top, #e40a0a 5%, #9f0202 100%);
@@ -82,7 +82,7 @@ body[month='2'] input:not([type=number])  {
 	background-color:#e40a0a;
 }
 
-body[month='3'] input:not([type=number])  {
+body[month='3'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #276A00;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #276A00;
 	box-shadow:inset 0px 1px 0px 0px #276A00;
@@ -113,7 +113,7 @@ body[month='3'] input:not([type=number])  {
     text-align: center;
 }
 
-[month='3'] input:not([type=number]):hover {
+[month='3'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #36780F), color-stop(1, #005900));
 	background:-moz-linear-gradient(top, #36780F 5%, #005900 100%);
 	background:-webkit-linear-gradient(top, #36780F 5%, #005900 100%);
@@ -124,7 +124,7 @@ body[month='3'] input:not([type=number])  {
 	background-color:#36780F;
 }
 
-body[month='4'] input:not([type=number])  {
+body[month='4'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #2C0158;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #2C0158;
 	box-shadow:inset 0px 1px 0px 0px #2C0158;
@@ -155,7 +155,7 @@ body[month='4'] input:not([type=number])  {
     text-align: center;
 }
 
-[month='4'] input:not([type=number]):hover {
+[month='4'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #4c2673), color-stop(1, #704e92));
 	background:-moz-linear-gradient(top, #4c2673 5%, #704e92 100%);
 	background:-webkit-linear-gradient(top, #4c2673 5%, #704e92 100%);
@@ -166,7 +166,7 @@ body[month='4'] input:not([type=number])  {
 	background-color:#4c2673;
 }
 
-body[month='5'] input:not([type=number])  {
+body[month='5'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #FFADAD;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #FFADAD;
 	box-shadow:inset 0px 1px 0px 0px #FFADAD;
@@ -197,7 +197,7 @@ body[month='5'] input:not([type=number])  {
     text-align: center;
 }
 
-[month='5'] input:not([type=number]):hover {
+[month='5'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff9999), color-stop(1, #ff7777));
 	background:-moz-linear-gradient(top, #ff9999 5%, #ff7777 100%);
 	background:-webkit-linear-gradient(top, #ff9999 5%, #ff7777 100%);
@@ -208,7 +208,7 @@ body[month='5'] input:not([type=number])  {
 	background-color:#ff9999;
 }
 
-body[month='6'] input:not([type=number])  {
+body[month='6'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #FFF819;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #FFF819;
 	box-shadow:inset 0px 1px 0px 0px #FFF819;
@@ -239,7 +239,7 @@ body[month='6'] input:not([type=number])  {
     text-align: center;
 }
 
-[month='6'] input:not([type=number]):hover {
+[month='6'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #faf68f), color-stop(1, #f3ed53));
 	background:-moz-linear-gradient(top, #faf68f 5%, #f3ed53 100%);
 	background:-webkit-linear-gradient(top, #faf68f 5%, #f3ed53 100%);
@@ -250,7 +250,7 @@ body[month='6'] input:not([type=number])  {
 	background-color:#faf68f;
 }
 
-body[month='7'] input:not([type=number])  {
+body[month='7'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #BBB9B9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #BBB9B9;
 	box-shadow:inset 0px 1px 0px 0px #BBB9B9;
@@ -281,7 +281,7 @@ body[month='7'] input:not([type=number])  {
     text-align: center;
 }
 
-[month='7'] input:not([type=number]):hover {
+[month='7'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e6e6e6), color-stop(1, #d9d9d9));
 	background:-moz-linear-gradient(top, #e6e6e6 5%, #d9d9d9 100%);
 	background:-webkit-linear-gradient(top, #e6e6e6 5%, #d9d9d9 100%);
@@ -292,7 +292,7 @@ body[month='7'] input:not([type=number])  {
 	background-color:#e6e6e6;
 }
 
-body[month='8'] input:not([type=number])  {
+body[month='8'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #AAA9A9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #AAA9A9;
 	box-shadow:inset 0px 1px 0px 0px #AAA9A9;
@@ -323,7 +323,7 @@ body[month='8'] input:not([type=number])  {
     text-align: center;
 }
 
-[month='8'] input:not([type=number]):hover {
+[month='8'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bababa), color-stop(1, #575757));
 	background:-moz-linear-gradient(top, #bababa 5%, #575757 100%);
 	background:-webkit-linear-gradient(top, #bababa 5%, #575757 100%);
@@ -334,7 +334,7 @@ body[month='8'] input:not([type=number])  {
 	background-color:#bababa;
 }
 
-body[month='9'] input:not([type=number])  {
+body[month='9'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #17181A;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #17181A;
 	box-shadow:inset 0px 1px 0px 0px #17181A;
@@ -365,7 +365,7 @@ body[month='9'] input:not([type=number])  {
     text-align: center;
 }
 
-[month='9'] input:not([type=number]):hover {
+[month='9'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2d2f32), color-stop(1, #1a1a1a));
 	background:-moz-linear-gradient(top, #2d2f32 5%, #1a1a1a 100%);
 	background:-webkit-linear-gradient(top, #2d2f32 5%, #1a1a1a 100%);
@@ -376,7 +376,7 @@ body[month='9'] input:not([type=number])  {
 	background-color:#2d2f32;
 }
 
-body[month='10'] input:not([type=number])  {
+body[month='10'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #FF9000;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #FF9000;
 	box-shadow:inset 0px 1px 0px 0px #FF9000;
@@ -407,7 +407,7 @@ body[month='10'] input:not([type=number])  {
     text-align: center;
 }
 
-[month='10'] input:not([type=number]):hover {
+[month='10'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffaf46), color-stop(1, #e78404));
 	background:-moz-linear-gradient(top, #ffaf46 5%, #e78404 100%);
 	background:-webkit-linear-gradient(top, #ffaf46 5%, #e78404 100%);
@@ -418,7 +418,7 @@ body[month='10'] input:not([type=number])  {
 	background-color:#ffaf46;	
 }
 
-body[month='11'] input:not([type=number])  {
+body[month='11'] input:not([type=number]):not([type=text])  {
 	-moz-box-shadow:inset 0px 1px 0px 0px #784600;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #784600;
 	box-shadow:inset 0px 1px 0px 0px #784600;
@@ -449,7 +449,7 @@ body[month='11'] input:not([type=number])  {
     text-align: center;
 }
 
-[month='11'] input:not([type=number]):hover {
+[month='11'] input:not([type=number]):not([type=text]):hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #805d2c), color-stop(1, #543305));
 	background:-moz-linear-gradient(top, #805d2c 5%, #543305 100%);
 	background:-webkit-linear-gradient(top, #805d2c 5%, #543305 100%);
@@ -458,6 +458,48 @@ body[month='11'] input:not([type=number])  {
 	background:linear-gradient(to bottom, #805d2c 5%, #543305 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#805d2c', endColorstr='#543305',GradientType=0);
 	background-color:#805d2c;
+}
+
+body[month='12'] input:not([type=number]):not([type=text])  {
+	-moz-box-shadow:inset 0px 1px 0px 0px #784600;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #784600;
+	box-shadow:inset 0px 1px 0px 0px #784600;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e8d1b2), color-stop(1, #FFCC88));
+	background:-moz-linear-gradient(top, #e8d1b2 5%, #FFCC88 100%);
+	background:-webkit-linear-gradient(top, #e8d1b2 5%, #FFCC88 100%);
+	background:-o-linear-gradient(top, #e8d1b2 5%, #FFCC88 100%);
+	background:-ms-linear-gradient(top, #e8d1b2 5%, #FFCC88 100%);
+	background:linear-gradient(to bottom, #e8d1b2 5%, #FFCC88 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8d1b2', endColorstr='#845108',GradientType=0);
+	background-color:#e8d1b2;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #7c5b2b;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5a421f;
+    width: 100%;
+    padding: 50% 0%;
+    line-height: 0%;
+    text-align: center;
+}
+
+[month='12'] input:not([type=number]):not([type=text]):hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dcba8b), color-stop(1, #ffb655));
+	background:-moz-linear-gradient(top, #dcba8b 5%, #ffb655 100%);
+	background:-webkit-linear-gradient(top, #dcba8b 5%, #ffb655 100%);
+	background:-o-linear-gradient(top, #dcba8b 5%, #ffb655 100%);
+	background:-ms-linear-gradient(top, #dcba8b 5%, #ffb655 100%);
+	background:linear-gradient(to bottom, #dcba8b 5%, #ffb655 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dcba8b', endColorstr='#ffb655',GradientType=0);
+	background-color:#dcba8b;
 }
 
 #first input {
